@@ -1,0 +1,77 @@
+.sidebar{
+    position:fixed; 
+    left: 0; 
+    bottom: 0; 
+    top: 55px; 
+    background-color: white;
+    width: 80px; 
+    z-index: 200;
+    padding-top: 5px; 
+    width: 4%;
+    cursor: pointer;
+    border-right: solid 1px gray;
+}
+
+.sidebar-link{
+    height: 74px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(236, 231, 231);
+    
+}
+
+.sidebar-link img{
+    height: 24px; 
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    align-items: center;
+
+}
+.right-sidebar{
+    position:fixed; 
+    right: 0; 
+    bottom: 0; 
+    top: 55px; 
+    background-color: white;
+    width: 80px; 
+    z-index: 200;
+    width: 15%;
+    padding-top: 5px; 
+}
+.feature-author{
+    height: 30%;
+    margin-left: 5px;
+    color: gray;
+}
+.feature-post{
+    margin-left: 5px;
+    color: gray;
+    height: 30%;
+}
+.feature-top-author{
+    font-size: 20px;
+}
+.authors{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.authors > img {
+    width: 64px;
+}
+
+.hot-feeds{
+    font-size: 18px;
+}
