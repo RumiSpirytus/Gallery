@@ -66,12 +66,19 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 
 .authors > img {
     width: 64px;
+    cursor: pointer;
 }
 
 .hot-feeds{
     font-size: 18px;
+    cursor: pointer;
+}
+.follow-button{
+    color: red;
+    cursor: pointer;
 }
